@@ -1,0 +1,18 @@
+{
+    "name": "libuavs3d",
+    "description": "AVS3 (AVS3-P2) video decoder",
+    "filters":["avs3dec"],
+    "help": "This filter decodes raw AVS3 elementary streams using uavs3d.",
+    "support": [
+        "video"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libuavs3d.accessor",
+    "filter_source":{
+        "avs3dec" : "dec_avs3.c"
+    },
+    "extension":{
+      "avs3" : "video",
+      "avs" : "video"
+    },
+    "licence_required":false
+}
