@@ -14,6 +14,10 @@
       "avs3" : "video",
       "avs" : "video"
     },
-    "licence_required":false,
-    "using": ["solver_minimal_1", "solver_1"]
+    "using": ["solver_minimal_1", "solver_1"],
+    "patents": {
+        "status": "licence-required",
+        "note": "AVS3: AVS patent pool",
+        "checked": "2026-10-16"
+    }
 }
