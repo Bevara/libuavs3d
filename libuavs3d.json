@@ -1,5 +1,6 @@
 {
     "name": "libuavs3d",
+    "version": "1.0.1",
     "description": "AVS3 (AVS3-P2) video decoder",
     "filters":["avs3dec"],
     "help": "This filter decodes raw AVS3 elementary streams using uavs3d.",
@@ -14,7 +15,7 @@
       "avs3" : "video",
       "avs" : "video"
     },
-    "using": ["solver_minimal_1", "solver_1"],
+    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1"],
     "patents": {
         "status": "licence-required",
         "note": "AVS3: AVS patent pool",

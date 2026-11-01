@@ -1,7 +1,7 @@
 /*
  *  Four symbols uavs3d references that no single solver provides. The two
- *  solvers export different subsets - solver_minimal_1 has exit but not puts
- *  or the pthread pair, solver_1 the reverse - so all four are defined here
+ *  solvers export different subsets - mm_solver_minimal_1.0.1 has exit but not puts
+ *  or the pthread pair, mm_solver_1.0.1 the reverse - so all four are defined here
  *  and the module links against either.
  *
  *  The pthread ones belong to uavs3d's frame-level threading, which this
